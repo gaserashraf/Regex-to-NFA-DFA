@@ -11,7 +11,7 @@ The Regex to NFA, DFA, and Minimized DFA Converter is a Python program that conv
 - [x] Ranges: Ranges of characters or numbers can be defined using brackets and the - character. For example: [0-9] or [a-z].
 - [x] Brackets or Grouping: Expressions can be grouped using parentheses to control the order of operations. For example: (ABD)+.
 
-## 🏁 Get Started <a name = "Install"></a>
+## 🏁 Get started <a name = "Install"></a>
 
 ```
 git clone https://github.com/gaserashraf/Regex-to-NFA-DFA.git
@@ -25,10 +25,10 @@ $ pip install graphviz
 ```
 run jupyter notebook
 ```
-## 💻 Built Using <a name = "tech"></a>
+## 💻 Built using <a name = "tech"></a>
 - **python**
 
-## ⚙️ project pipeline
+## ⚙️ Project pipeline
 ![alt text](./screenshots/pipeline.jpg)
 
 ## 📷 Demo
