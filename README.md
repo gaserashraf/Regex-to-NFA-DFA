@@ -34,7 +34,7 @@ run jupyter notebook
 ## 📷 Demo
 ## For regex: ab(b|c)*d+
 <div name="Screenshots" >
-   <h2>AST Tree:</h2>
+   <h2>AST:</h2>
    <img width=30% src="screenshots/AST_tree.PNG" alt="s1"></a>
    <hr>
    <h2>NFA:</h2>
