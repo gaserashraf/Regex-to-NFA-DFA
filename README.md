@@ -45,5 +45,5 @@ run jupyter notebook
    <hr>
 
    <h2>Minimized DFA:</h2>
-   <img width=30% src="screenshots/minimized_dfa_graph.PNG" alt="s3"></a>
+   <img width=30% src="screenshots/minimized_dfa_graph.png" alt="s3"></a>
 </div>
