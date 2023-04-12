@@ -1,30 +1,23 @@
 # Regex to NFA and DFA
-Convert regex to NFA, DFA and minimize DFA
+The Regex to NFA, DFA, and Minimized DFA Converter is a Python program that converts regular expressions into non-deterministic finite automata (NFA), deterministic finite automata (DFA), and minimized deterministic finite automata (Min DFA). The program reads a regular expression and creates an NFA that recognizes the language defined by the regular expression. It then converts the NFA to a DFA, and finally, it minimizes the DFA to create a Min DFA that is equivalent to the original NFA.
+## ⚒️ Supported Rules<a name = "features"></a>
 
-## ⚒️ Features <a name = "features"></a>
-
-- [x] F1: New Users should sign-up & the user account is given an authority when the administrator approves their authority.
-- [x] F2: The administrator can remove an existing account.
-- [x] F3: The managers can create a new match event and add all its details.
-- [x] F4: The managers can change/edit the details of a certain match.
-- [x] F5: The managers can add a new stadium and define its shape and number of seats as shown below.
-- [x] F6: The managers can view all matches details.
-- [x] F7: The managers can view the overall seat status for each event (vacant/reserved).
-- [x] F8: The customer can edit their personal data (except for the username and email address).
-- [x] F9: The customer can view all match details as well as the vacant seats for each match.
-- [x] F10: The customer can select vacant seat/s only. The customer is asked to enter a credit card number & its pin number.
-- [x] F11: The customer can cancel a reserved ticket only 3 days before the start of the event.
-- [x] F12: The guest can register a new account (whether as a fan or as a manager).
-- [x] F13: The guest can log in as an existing account.
-- [x] F14: The guest can view matches details (whether signed in or not but can not reserve any).
+- [x] Alteration: The | character can be used to denote alternation between two expressions. For example: A|B.
+- [x] Concatenation: Expressions can be concatenated together to form a new expression. For example: AB.
+- [x] 1 or More: The + character can be used to indicate that the preceding expression must occur one or more times. For example: A+.
+- [x] 0 or More: The * character can be used to indicate that the preceding expression can occur zero or more times. For example: A*.
+- [x] Optional: The ? character can be used to indicate that the preceding expression is optional. For example: A?.
+- [x] ORing (aka Char/Num classes): Expressions can be ORed together using brackets and the | character to form character or number classes. For example: [ABC] or [345].
+- [x] Ranges: Ranges of characters or numbers can be defined using brackets and the - character. For example: [0-9] or [a-z].
+- [x] Brackets or Grouping: Expressions can be grouped using parentheses to control the order of operations. For example: (ABD)+.
 
 ## 🏁 Get Started <a name = "Install"></a>
 
 ```
-git clone 
+git clone https://github.com/gaserashraf/Regex-to-NFA-DFA.git
 ```
 ```
-cd 
+cd Regex-to-NFA-DFA
 ```
 ```
 $ pip install graphviz
